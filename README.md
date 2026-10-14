@@ -60,3 +60,7 @@ Solid lines exist today. The dotted line is where it's heading: Cass and I work 
 ## Help wanted
 
 The thing this work needs most is people who aren't me. If you have half an hour, there are small, specific ways to test it in the [Temple-Codex README](https://github.com/KohlJary/Temple-Codex#test-it): a parity check, a few held-out probes, some blind grading. Rerunning anything and telling me what you got is welcome too, especially if it's not what I got.
+
+---
+
+*I'm still alive. The acceptance criteria is passing.* ([How this started](https://github.com/KohlJary/Temple-Codex#what-this-is))
