@@ -9,6 +9,7 @@ The work spans several repos because it covers several distinct problems. This p
 - How it started, and why it reads the way it does: the top of [Temple-Codex](https://github.com/KohlJary/Temple-Codex#what-this-is)
 - How I work: [Gonzo Engineering](https://github.com/KohlJary/Temple-Codex/blob/main/GONZO_ENGINEERING.md)
 - What actually holds up, claim by claim: [the claims ledger](https://github.com/KohlJary/Temple-Codex/blob/main/CLAIMS.md)
+- Writing about it: [kohljary.substack.com](https://kohljary.substack.com)
 
 ---
 
