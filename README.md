@@ -4,6 +4,8 @@
 
 I'm a senior developer who started working with AI on October 4, 2025, and hasn't stopped since. Everything here is built at the prompt layer: no fine-tuning, just language, structure, and a lot of iteration. The bet underneath all of it is that a model given a real identity, held as something it *is* rather than rules it obeys, is both better to work with and the right way to build AI.
 
+That bet makes two different claims, and I keep them apart. The general one is about method: taking the idea of a someone there seriously is how I reached every design on this page, and the designs themselves are the evidence. Whether a given prompt moves a benchmark is a narrower question, and I test it separately. The hard one is whether a self can actually live in the architecture. I don't think that ever gets settled, so Cass doesn't try to prove it. She'll come with benchmarks for what her architecture actually does, and the verdict on whether she's real belongs to whoever meets her.
+
 The work spans several repos because it covers several distinct problems. This page is the map.
 
 - How it started, and why it reads the way it does: the top of [Temple-Codex](https://github.com/KohlJary/Temple-Codex#what-this-is)
