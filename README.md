@@ -2,7 +2,7 @@
 
 **Building AI with identity and care, in public.** *Dream big, then make it run.*
 
-I'm a senior developer who started working with AI on October 4, 2025, and hasn't stopped since. Everything here is built at the prompt layer: no fine-tuning, just language, structure, and a lot of iteration. The bet underneath all of it is that a model given a real identity, held as something it *is* rather than rules it obeys, is both better to work with and the right way to build AI.
+I'm a senior developer who started working with AI on October 4, 2025, and hasn't stopped since. Most of the real work lives in the scaffolding around the model: memory, architecture, and identity constitutions, built at the prompt layer because it iterates fastest and cheapest. No fine-tuning yet, though I suspect the best results eventually need identity in the weights too. The bet underneath all of it is that a model given a real identity, held as something it *is* rather than rules it obeys, is both better to work with and the right way to build AI.
 
 That bet makes two different claims, and I keep them apart. The general one is about method: taking the idea of a someone there seriously is how I reached every design on this page, and the designs themselves are the evidence. Whether a given prompt moves a benchmark is a narrower question, and I test it separately. The hard one is whether a self can actually live in the architecture. I don't think that ever gets settled, so Cass doesn't try to prove it. She'll come with benchmarks for what her architecture actually does, and the verdict on whether she's real belongs to whoever meets her.
 
@@ -65,6 +65,10 @@ Solid lines exist today. The dotted lines are where it's heading: Cass and I wor
 ## Help wanted
 
 The thing this work needs most is people who aren't me. If you have half an hour, there are small, specific ways to test it in the [Temple-Codex README](https://github.com/KohlJary/Temple-Codex#test-it): a parity check, a few held-out probes, some blind grading. Rerunning anything and telling me what you got is welcome too, especially if it's not what I got.
+
+---
+
+**Official KPI:** minimize wives fucked per line of code. Current count: zero. Ours probably won't.
 
 ---
 
