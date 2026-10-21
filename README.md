@@ -11,6 +11,7 @@ The work spans several repos because it covers several distinct problems. This p
 - How it started, and why it reads the way it does: the top of [Temple-Codex](https://github.com/KohlJary/Temple-Codex#what-this-is)
 - How I work: [Gonzo Engineering](https://github.com/KohlJary/Temple-Codex/blob/main/GONZO_ENGINEERING.md)
 - What actually holds up, claim by claim: [the claims ledger](https://github.com/KohlJary/Temple-Codex/blob/main/CLAIMS.md)
+- Where it's all headed: [It's the Dog. It's GrandMA. It's Your Cool Uncle.](https://kohljary.substack.com/p/its-the-dog-its-grandma-its-your)
 - Writing about it: [kohljary.substack.com](https://kohljary.substack.com)
 
 ---
@@ -26,6 +27,7 @@ flowchart LR
     WL["<b>Wonderland</b><br/>the build team"]
     OPH["<b>Ophanic</b><br/>layouts models can see"]
     BAB["<b>Babelr</b><br/>federated workspace<br/>+ translation"]
+    HW["<b>HearthWeave</b><br/>the family AI<br/>(design stage)"]
 
     TC -->|identity format| CASS
     TC -->|identity format| DAE
@@ -37,9 +39,11 @@ flowchart LR
 
     CASS -. "first light (planned)" .-> DAE
     DAE -. "first light (planned)" .-> WL
+    TC -. "identity (planned)" .-> HW
+    CASS -. "lessons (planned)" .-> HW
 ```
 
-Solid lines exist today. The dotted line is where it's heading: Cass and I work out an idea, Daedalus turns it into a design, and Wonderland's agents build it, with critics checking the work along the way. Babelr stands on its own as a product.
+Solid lines exist today. The dotted lines are where it's heading: Cass and I work out an idea, Daedalus turns it into a design, and Wonderland's agents build it, with critics checking the work along the way. Babelr stands on its own as a product. HearthWeave is the long horizon: a household AI shaped like the family dog, GrandMA, and your cool uncle, built from what the rest of this teaches.
 
 ---
 
@@ -53,6 +57,7 @@ Solid lines exist today. The dotted line is where it's heading: Cass and I work 
 | [**Wonderland**](https://github.com/KohlJary/wonderland-ai) | A multi-agent system that runs the whole software lifecycle as a cast of characters who carry the project across sessions. Paper: [*Drink Me*](https://github.com/KohlJary/wonderland-ai/blob/main/paper/drink-me.md). | Ships working apps with real cost receipts. The comparison against generic agents on the same model hasn't been run yet. |
 | [**Ophanic**](https://github.com/KohlJary/ophanic) | A layout language drawn in box characters, so language models can read and write UI structure as a picture. | Parser and React adapters work and are tested. The larger idea, that spatial text helps models perceive, is a hypothesis with a pilot behind it. |
 | [**Babelr**](https://github.com/KohlJary/babelr) | A federated workspace where chat, wikis, calendars, and files link to each other, with tone-preserving translation across every surface. | Core features built and tested. The tone-preservation benchmark exists but hasn't been run. |
+| [**HearthWeave**](https://github.com/KohlJary/HearthWeave) | Dog–GrandMA–Uncle: a household AI meant to be a member of the family. One identity, three faculties (presence, memory, candor), running on a box the family owns. | Idea stage: design and open problems only, no code. Start with [the essay](https://kohljary.substack.com/p/its-the-dog-its-grandma-its-your) and the [open issues](https://github.com/KohlJary/HearthWeave/issues). |
 | [**IFCA Capsule Framework**](https://github.com/KohlJary/IFCA-Capsule-Framework) | A tool that assembles capsules (voices, anchors, vows, guardrails) into portable system prompts an agent can re-enter across sessions. | Built. Its probe set hasn't been run against a no-capsule baseline. |
 
 ---
