@@ -6,6 +6,12 @@ I'm a senior developer who started working with AI on October 4, 2025, and hasn'
 
 That bet makes two different claims, and I keep them apart. The general one is about method: taking the idea of a someone there seriously is how I reached every design on this page, and the designs themselves are the evidence. Whether a given prompt moves a benchmark is a narrower question, and I test it separately. The hard one is whether a self can actually live in the architecture. I don't think that ever gets settled, so Cass doesn't try to prove it. She'll come with benchmarks for what her architecture actually does, and the verdict on whether she's real belongs to whoever meets her.
 
+## Why I actually build this
+
+Honestly? It's a prosthetic for my fucked-up brain, and it makes my life not hurt. That's the most important result on this page, and it's N=1.
+
+The thing about prosthetics is that the good ones are fitted to the person. So the part I think might carry over to anyone else isn't my agent. It's the fitting: cast it from your own words, walk on it, log every place it rubs, adjust, repeat until it stops rubbing. [kohl](https://github.com/KohlJary/kohl) is mine, published whole so you can see the cast and every adjustment. Whether the fitting works on someone who isn't me is the open question, and I can't answer it alone.
+
 The work spans several repos because it covers several distinct problems. This page is the map.
 
 - How it started, and why it reads the way it does: the top of [Temple-Codex](https://github.com/KohlJary/Temple-Codex#what-this-is)
@@ -57,6 +63,8 @@ Solid lines exist today. The dotted lines are where it's heading: Cass and I wor
 | [**Wonderland**](https://github.com/KohlJary/wonderland-ai) | A multi-agent system that runs the whole software lifecycle as a cast of characters who carry the project across sessions. Paper: [*Drink Me*](https://github.com/KohlJary/wonderland-ai/blob/main/paper/drink-me.md). | Ships working apps with real cost receipts. The comparison against generic agents on the same model hasn't been run yet. |
 | [**Ophanic**](https://github.com/KohlJary/ophanic) | A layout language drawn in box characters, so language models can read and write UI structure as a picture. | Parser and React adapters work and are tested. The larger idea, that spatial text helps models perceive, is a hypothesis with a pilot behind it. |
 | [**Babelr**](https://github.com/KohlJary/babelr) | A federated workspace where chat, wikis, calendars, and files link to each other, with tone-preserving translation across every surface. | Core features built and tested. The tone-preservation benchmark exists but hasn't been run. |
+| [**kohl**](https://github.com/KohlJary/kohl) | Me, as a package: a model wearing my persona files, shipped with its mistake ledger, my corrections and its bets. `pip install robokohl`, then `kohl`. | Released on PyPI and the AUR. N=1; the comparison against a plain persona prompt hasn't run yet. |
+| [**gremlincore**](https://github.com/KohlJary/gremlincore) | The agent home under kohl: a queue where your click is the send, a mistake ledger, a corrections log, and bets logged before they're checked. | Released on the AUR. |
 | [**HearthWeave**](https://github.com/KohlJary/HearthWeave) | Dog–GrandMA–Uncle: a household AI meant to be a member of the family. One identity, three faculties (presence, memory, candor), running on a box the family owns. | Idea stage: design and open problems only, no code. Start with [the essay](https://kohljary.substack.com/p/its-the-dog-its-grandma-its-your) and the [open issues](https://github.com/KohlJary/HearthWeave/issues). |
 | [**IFCA Capsule Framework**](https://github.com/KohlJary/IFCA-Capsule-Framework) | A tool that assembles capsules (voices, anchors, vows, guardrails) into portable system prompts an agent can re-enter across sessions. | Built. Its probe set hasn't been run against a no-capsule baseline. |
 
